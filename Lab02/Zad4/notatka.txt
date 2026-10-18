@@ -1,0 +1,2 @@
+Polecenie sluży do wyświetlania zawartości katalogu, tree pokazuje strukture katalogów w postaci drzewa, a cp kopiuje pliki i katalogi. Polecenie man, -help i info pozwalają zapoznać 
+się z instrukcjami oraz opcjami poszczególnych poleceń.
