@@ -1,0 +1,11 @@
+Zadanie 3 - Sortowanie i usuwanie duplikatów
+
+sort lista.txt > posortowane.txt - sortuje dane i zapisuje je do pliku
+
+sort posortowane.txt | uniq > unikatowe.txt - usuwa duplikaty i zapisuje wynik do pliku
+
+cat unikatowe.txt | wc -l - liczy unikatowe linie do pliku.
+
+| - potok przekazuje wynik do kolejnego polecenia 
+
+uniq - usuwa powtarzające się linie, jeśli są obok siebie (dlatego wcześniej używamy sort)
