@@ -1,0 +1,9 @@
+Zadanie 2 - Tworzenie i łączenie plików
+
+Utworzono pliki plik1.txt, plik2.txt i plik3.txt
+
+Połączono ich zawartość w pliku zwierzeta.txt za pomocą cat i >
+cat plik1.txt plik2.txt plik3.txt > zwierzeta.txt
+
+Polecenie wc -l zwierzeta.txt zwróciło 3, czyli liczbę linii w pliku.
+
