@@ -1,0 +1,9 @@
+Zadanie 6 - Łączenie poleceń w potoku
+
+Polecenie cut wybiera imiona z pierwszej kolumny pliku oceny.txt.
+Polecenie sort sortuje imiona alfabetycznie, a uniq usuwa duplikaty.
+Polecenie wc -l zlicza liczbę unikalnych imion, a operator > zapisuje wynik do pliku wynik.txt
+Znak | (potok) przekazuje wynik jednego polecenia do następnego
+
+przykład: cut -d ";" -f 1 oceny.txt | sort | uniq | wc -l > wynik.txt
+
