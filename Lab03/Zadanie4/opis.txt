@@ -1,0 +1,11 @@
+Zadanie 4 - Jedno polecenie więcej
+
+Polecenia:
+- sort - sortuje dane alfabetycznie
+- uniq - usuwa powtarzające się linie.
+- tee - zapisuje unikatowe dane do pliku unikatowe.txt i jednocześnie przekazuje je dalej w potoku
+- wc -l - liczy liczbę unikatowych linii.
+- > - zapisuje wynik do pliku liczba.txt, nadpisując jego zawartość
+
+Polecenie tee pozwala jednocześnie zapisać dane do pliku i przekazać je do kolejnego polecenia bez przerywania potoku.
+
