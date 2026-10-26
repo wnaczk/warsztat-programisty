@@ -1,0 +1,9 @@
+Zadanie 5 - Praca z kolumnami danych
+
+Utworzyłem plik uzytkownicy.txt z danymi oddzielonymi średnikami.
+
+Polecenie
+cut -d ";" -f 1 uzytkownicy.txt > imiona.txt
+posłużyło mi do wybrania pierwszej kolumny, czyli imion, i zapisania ich do pliku imiona.txt
+
+Następnie polecenie wc -l policzyło mi liczbę wierszy w tym pliku.
