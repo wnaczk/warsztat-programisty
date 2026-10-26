@@ -1,0 +1,29 @@
+1. Różnice między operatorami
+> = zapisuje wynik do pliku, nadpisując jego zawartość
+>> = dopisuje wynik na końcu pliku.
+< = przekazuje zawartość pliku jak dane wejściowe polecenia.
+| = przekazuje wynik jednego polecenia do następnego.
+
+2. Polecenia użyte w ćwiczeniu
+mkdir - tworzy katalog.
+cd - zmienia katalog.
+ls - wyświetla zawartość katalogu.
+touch - tworzy pusty plik.
+nano - edytuje plik tekstowy
+cat - wyświetla zawartość pliku.
+cp - kopiuje pliki.
+sort - sortuje dane.
+uniq - usuwa powtarzające się wiersze.
+cut - wybiera określone kolumny.
+wc -l = liczy wiersze/linie
+wc -w = liczy liczbę słów wc -w tekst.txt
+wc -c = liczba bajtów
+tee - zapisuje wynik do pliku i jednocześnie przekazuje go dalej w potoku.
+
+git add, git commit, git push
+
+3. Najbardziej przydatne polecenia:
+
+Za najbardziej przydatne uznaję cut, sort, uniq i wc -l, ponieważ pozwalają
+szybko wybierać, porządkować i analizować dane.
+Przydatny jest równnież operator |, który umożliwia łączenie kilku poleceń w jeden potok.
